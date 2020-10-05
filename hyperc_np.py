@@ -10,7 +10,7 @@ z1=np.random.random(ntrials)
 z2=np.random.random(ntrials)
 
 dist=np.mean(np.sqrt((x1-x2)**2+(y1-y2)**2+(z1-z2)**2))
-e_time=tim  e.process_time()-start_time
+e_time=time.process_time()-start_time
 
 ex_dist=1/105*(4+17*math.sqrt(2)-6*math.sqrt(3)+21*math.log(1+math.sqrt(2))+42*math.log(2+math.sqrt(3))-7*math.pi)
 
