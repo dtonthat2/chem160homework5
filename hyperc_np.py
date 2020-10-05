@@ -14,4 +14,4 @@ e_time=time.process_time()-start_time
 
 ex_dist=1/105*(4+17*math.sqrt(2)-6*math.sqrt(3)+21*math.log(1+math.sqrt(2))+42*math.log(2+math.sqrt(3))-7*math.pi)
 
-print("Ntrials=%d  Ave dist=%9.7f  Exact dist=%9.7f Elapsed time=%6.2f"%(ntrials,dist,ex_dist,e_time))
+print("Ntrials=%d  Ave dist=%9.7f  Exact dist=%9.7f Elapsed time=%4.2f"%(ntrials,dist,ex_dist,e_time))
